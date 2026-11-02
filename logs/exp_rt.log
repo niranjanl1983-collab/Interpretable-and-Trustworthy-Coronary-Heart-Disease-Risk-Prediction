@@ -1,0 +1,11 @@
+04:47:31 fold 1 records 729 median total ms 11.2
+04:47:52 fold 1 explainer timing done
+04:48:14 fold 2 records 718 median total ms 32.5
+04:48:33 fold 2 explainer timing done
+04:48:53 fold 3 records 736 median total ms 14.0
+04:49:12 fold 3 explainer timing done
+04:49:32 fold 4 records 743 median total ms 12.0
+04:49:50 fold 4 explainer timing done
+04:50:10 fold 5 records 732 median total ms 12.3
+04:50:29 fold 5 explainer timing done
+04:50:29 DONE 3658 records timed

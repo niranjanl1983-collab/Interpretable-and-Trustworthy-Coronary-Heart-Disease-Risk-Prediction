@@ -1,0 +1,3 @@
+(4240, 16) 644 15.19
+complete 3658
+{'education': 105, 'cigsPerDay': 29, 'BPMeds': 53, 'totChol': 50, 'BMI': 19, 'heartRate': 1, 'glucose': 388}

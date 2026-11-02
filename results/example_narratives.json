@@ -1,0 +1,18 @@
+{
+ "pos": {
+  "i": 1884,
+  "text": "Narrative for record F1_R1884.\nTen-year CHD model probability: 18.3% (research threshold 15.2%).\nModel screen: positive.\nConformal status at 90% confidence: positive.\nCertificate: baseline log-odds -1.90; listed contributions +0.57; other terms -0.16; total log-odds -1.49.\nContributor 1: smoking intensity = 40 cigarettes/day (band 20 cigarettes/day and above) raised the log-odds by 0.52 (odds \u00d71.68). [GAMA:cigsPerDay]\nContributor 2: systolic blood pressure = 144 mmHg (band 140\u2013160 mmHg) raised the log-odds by 0.20 (odds \u00d71.22). [GAMA:sysBP]\nContributor 3: age = 47 years (band 45\u201355 years) lowered the log-odds by 0.15 (odds \u00d70.86). [GAMA:age]\nStrongest contributor: smoking intensity.\nBlood pressure 144/91 mmHg: stage 2 [ACC_AHA_BP_2017]; stage 1 [JNC7_2003].\nTotal cholesterol 221 mg/dL: borderline high [ATP_III_2002].\nGlucose 66 mg/dL: fasting status unverified, no glycaemic category assigned [ADA_2024].\nBody-mass index 35.8 kg/m\u00b2: obesity [WHO_BMI_2000].\nModel counterfactual: changing systolic blood pressure from 144 to 127 would move the model probability to 15.0%, below the threshold. This describes the model, not the effect of treatment.\nScope: research decision-support output; not a diagnosis; requires clinician review.",
+  "p": 0.18342601302505848,
+  "thr": 0.15172829159586912,
+  "y": 0,
+  "status": "positive"
+ },
+ "neg": {
+  "i": 869,
+  "text": "Narrative for record F1_R0869.\nTen-year CHD model probability: 8.4% (research threshold 15.2%).\nModel screen: negative.\nConformal status at 90% confidence: negative.\nCertificate: baseline log-odds -1.90; listed contributions -0.44; other terms -0.04; total log-odds -2.39.\nContributor 1: age = 42 years (band below 45 years) lowered the log-odds by 0.42 (odds \u00d70.66). [GAMA:age]\nContributor 2: smoking intensity = 0 cigarettes/day (band below 1 cigarettes/day) lowered the log-odds by 0.22 (odds \u00d70.81). [GAMA:cigsPerDay]\nContributor 3: male sex = yes raised the log-odds by 0.19 (odds \u00d71.21). [GAMA:male]\nStrongest contributor: age.\nBlood pressure 135/82 mmHg: stage 1 [ACC_AHA_BP_2017]; prehypertension [JNC7_2003].\nTotal cholesterol 163 mg/dL: desirable [ATP_III_2002].\nGlucose 77 mg/dL: fasting status unverified, no glycaemic category assigned [ADA_2024].\nBody-mass index 25.8 kg/m\u00b2: overweight [WHO_BMI_2000].\nScope: research decision-support output; not a diagnosis; requires clinician review.",
+  "p": 0.08423967746976764,
+  "thr": 0.15172829159586912,
+  "y": 0,
+  "status": "negative"
+ }
+}
